@@ -30,6 +30,7 @@
 		2A3D184C2861DFD5000D865F /* RMCharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D184B2861DFD5000D865F /* RMCharacterDetailsViewController.swift */; };
 		2A3D184E2861E00B000D865F /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D184D2861E00B000D865F /* ApplicationCoordinator.swift */; };
 		2A3D18512861E0A2000D865F /* UIImage+SystemNameIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D18502861E0A2000D865F /* UIImage+SystemNameIcon.swift */; };
+		2A3D18532861E795000D865F /* RMCharactersSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D18522861E795000D865F /* RMCharactersSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		2A3D184B2861DFD5000D865F /* RMCharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailsViewController.swift; sourceTree = "<group>"; };
 		2A3D184D2861E00B000D865F /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		2A3D18502861E0A2000D865F /* UIImage+SystemNameIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SystemNameIcon.swift"; sourceTree = "<group>"; };
+		2A3D18522861E795000D865F /* RMCharactersSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharactersSplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 		2A3D18442861DD8D000D865F /* RMCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				2A3D18522861E795000D865F /* RMCharactersSplitViewController.swift */,
 				2A3D184B2861DFD5000D865F /* RMCharacterDetailsViewController.swift */,
 				2A3D18492861DE5C000D865F /* RMCharactersMasterViewController.swift */,
 				2A3D18452861DDBE000D865F /* RMCharactersViewModel.swift */,
@@ -394,6 +397,7 @@
 				2A3D184E2861E00B000D865F /* ApplicationCoordinator.swift in Sources */,
 				2A3D18432861DD4D000D865F /* RMCharacterRowUIModel.swift in Sources */,
 				2A3D18412861DCF0000D865F /* RMCharacterUIModel.swift in Sources */,
+				2A3D18532861E795000D865F /* RMCharactersSplitViewController.swift in Sources */,
 				2A3D184A2861DE5C000D865F /* RMCharactersMasterViewController.swift in Sources */,
 				2A3D18482861DE03000D865F /* RMCharacterMapper.swift in Sources */,
 				2A3D18372861DBB5000D865F /* CharactersDataService.swift in Sources */,

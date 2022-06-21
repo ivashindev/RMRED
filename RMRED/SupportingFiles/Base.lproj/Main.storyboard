@@ -161,7 +161,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="TSI-60-tAn">
                                                     <rect key="frame" x="0.0" y="2.5" width="75" height="81.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olH-UZ-Otg">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olH-UZ-Otg">
                                                     <rect key="frame" x="83" y="0.0" width="291" height="86"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -218,10 +218,10 @@
             </objects>
             <point key="canvasLocation" x="-978" y="-535"/>
         </scene>
-        <!--Split View Controller-->
+        <!--Characters Split View Controller-->
         <scene sceneID="Ipi-wY-LNq">
             <objects>
-                <splitViewController allowDoubleColumnStyle="YES" id="cTs-dW-koI" sceneMemberID="viewController">
+                <splitViewController allowDoubleColumnStyle="YES" id="cTs-dW-koI" customClass="RMCharactersSplitViewController" customModule="RMRED" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="dJz-Zc-erc" kind="relationship" relationship="masterViewController" id="6to-Zc-gfc"/>
                         <segue destination="QWJ-wI-GPC" kind="relationship" relationship="detailViewController" id="h4n-l4-xew"/>
