@@ -1,10 +1,3 @@
-//
-//  RMREDUITestsLaunchTests.swift
-//  RMREDUITests
-//
-//  Created by Dmitry Ivashin on 19.06.2022.
-//
-
 import XCTest
 
 class RMREDUITestsLaunchTests: XCTestCase {

@@ -1,10 +1,3 @@
-//
-//  RMREDTests.swift
-//  RMREDTests
-//
-//  Created by Dmitry Ivashin on 19.06.2022.
-//
-
 import XCTest
 @testable import RMRED
 
